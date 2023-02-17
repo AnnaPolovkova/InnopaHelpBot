@@ -15,7 +15,7 @@ conn = sqlite3.connect('info.db') # Потом поменяем
 sql = conn.cursor()
 
 def start_kb():
-    button_reg = KeyboardButton('Хз')
+    button_reg = KeyboardButton('Хз1')
     button_enter = KeyboardButton('Тоже хз')
     st_kn = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True).add(button_reg, button_enter)
     return st_kn
